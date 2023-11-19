@@ -1,6 +1,5 @@
 name: gitbook-build
 run-name: ${{ github.actor }} is building gitbook
-
 on:
   push:
     branches:
@@ -137,7 +136,7 @@ jobs:
       with:
         node-version: '10.24.1'
     
-    - name: build gitbook
+    - name: Build Gitbook
       run: |
         if [ -f ./node_modules/.bin/gitbook ]; then
           echo "init gitbook"
@@ -194,7 +193,7 @@ jobs:
         with:
           # Upload entire repository
           path: './docs'
-          
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
