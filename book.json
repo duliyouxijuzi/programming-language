@@ -1,0 +1,30 @@
+{
+    "plugins": [
+        "prism",
+        "github-buttons",
+        "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-tomorrow.css"
+            ]
+        },
+        "github-buttons": {
+            "buttons": [
+                {
+                    "user": "duliyouxijuzi",
+                    "repo": "programming-language",
+                    "type": "star",
+                    "size": "small",
+                    "count": true
+                }
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright &copy <a href='https://duliyouxijuzi.github.io' target='_blank'>独立游戏橘子</a> 2019-2023",
+            "modify_label": "修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    }
+}
