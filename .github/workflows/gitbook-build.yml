@@ -1,6 +1,5 @@
 name: gitbook-build
 run-name: ${{ github.actor }} is building gitbook
-
 on:
   push:
     branches:
